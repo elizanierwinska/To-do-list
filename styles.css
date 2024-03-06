@@ -143,3 +143,43 @@ span:hover {
     transform: scale(1);
   }
 }
+
+a {
+  position: relative;
+  transition: 0.3s ease-in-out;
+}
+
+a:hover {
+  transform: translate(-2px,-2px);
+}
+
+.button{
+  margin-top: 40px;
+  font-weight: 500;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 40px;
+  padding: 0.75rem 1.5rem;
+  background-color: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(10px);
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1);
+  transform: translate(0);
+  cursor: pointer;
+  transition: 0.3 ease-in-out;
+}
+
+.button-gradient{
+  position: absolute;
+  background: linear-gradient(20deg, #e66465, #9198e5);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  border-radius: 40px;
+  transform: translate(0.5rem, 0.5rem);
+}
+
+.button:hover{
+  transform: translate(-2px, -2px)
+}

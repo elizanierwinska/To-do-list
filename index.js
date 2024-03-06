@@ -51,6 +51,12 @@ taskList.addEventListener('click', (e) => {
   saveList();
 })
 
+
+function deleteAllTasks() {
+  localStorage.clear();
+  location.reload();
+}
+
 function saveList() {
   localStorage.setItem('data', taskList.innerHTML);
 }

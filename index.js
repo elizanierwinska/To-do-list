@@ -2,6 +2,20 @@ const task = document.getElementById("input")
 const addButton = document.getElementById("add-button");
 const taskList = document.getElementById("list");
 
+document.onclick = function(e){
+  let x = e.pageX;
+  let y = e.pageY;
+  let span = document.createElement("span");
+  span.classList.add("click_effect");
+  span.style.top = y + "px";
+  span.style.left = x + "px";
+  document.body.appendChild(span);
+
+  setTimeout(() => {
+    span.remove();
+  },500)
+}
+
 function addTask() {
   if(task.value === ''){
     alert("You have to write down the task.");

@@ -4,7 +4,7 @@
 To-Do List
 <br>
 </h1>
-<h4 align="center">A minimal JavaScript To-Do List</h4>
+<h4 align="center">A minimal JavaScript To-Do List App</h4>
 
 ![screenshot](./images/to-do-list.png)
 

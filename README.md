@@ -1,10 +1,9 @@
 <h1 align="center">
-<img width="150" src="https://cdn-icons-png.flaticon.com/512/6109/6109099.png"/>
 <br>
 To-Do List
 <br>
 </h1>
-<h4 align="center">A minimal JavaScript To-Do List App</h4>
+<h4 align="center">A minimalistic JavaScript To-Do List App</h4>
 
 ![screenshot](./images/to-do-list.png)
 

@@ -4,7 +4,7 @@
 To-Do List
 <br>
 </h1>
-<h4 align="center">A minimal JavaScript To-Do List App</h4>
+<h4 align="center">A minimal JavaScript To-Do List</h4>
 
 ![screenshot](./images/to-do-list.png)
 
@@ -17,7 +17,7 @@ open index.html
 
 ## Information about the project
 
-To-Do List App is a simple app, where you can write down all the tasks you need to complete. You can type your task in a searchbar and add it to the list, then manage it by marking it as a complete/uncomplete and ultimately deleting it when necessary. This project might be useful if you want to manage you daily tasks efficiently.
+To-Do List is a simple app, where you can write down all the tasks you need to complete. You can type your task in a searchbar and add it to the list, then manage it by marking it as a complete/uncomplete and ultimately deleting it when necessary. This project might be useful if you want to manage you daily tasks efficiently.
 
 ###  Features: 
 * pick a date from the calendar
